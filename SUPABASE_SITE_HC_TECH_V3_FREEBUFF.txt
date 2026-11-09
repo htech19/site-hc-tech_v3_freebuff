@@ -1,0 +1,53 @@
+RELATORIO DE CONEXAO - SUPABASE
+Projeto: site-hc-tech_v3_freebuff
+Data da consulta: 09/11/2026
+
+[PROJETO]
+Nome: site-hc-tech_v3_freebuff
+Project ID / Reference: kfczorckyqmyflrutrik
+Status: ACTIVE_HEALTHY
+Regiao: us-east-1
+PostgreSQL: 17.11.0.018
+Host do banco: db.kfczorckyqmyflrutrik.supabase.co
+Project URL: https://kfczorckyqmyflrutrik.supabase.co
+
+[CONFIGURACAO FRONTEND - VITE]
+VITE_SUPABASE_URL=https://kfczorckyqmyflrutrik.supabase.co
+
+Chave recomendada para novos projetos (publishable):
+VITE_SUPABASE_ANON_KEY=sb_publishable_bA2TXqitcEchXRcTIPwfLg_YZiAOK04
+
+Chave legada anon (compatibilidade):
+VITE_SUPABASE_ANON_KEY_LEGACY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtmY3pvcmNreXFteWZscnV0cmlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQyNDQ1MjcsImV4cCI6MjEwOTgyMDUyN30.AUJLRPDXSXoWo07HJC2H542p6bUWkrMR67C3SthU9B0
+
+IMPORTANTE:
+- A chave publishable e a chave anon legada sao destinadas ao uso publico no cliente, mas o acesso aos dados deve ser protegido por RLS e politicas adequadas.
+- NUNCA coloque service_role ou secret key no frontend, em VITE_*, no navegador ou em repositorios publicos.
+- O nome VITE_SUPABASE_ANON_KEY foi mantido por compatibilidade com a solicitacao original. Apesar do nome, o valor recomendado neste arquivo e a chave publishable sb_publishable_.
+- Mantenha arquivos .env fora do Git; adicione .env, .env.local e variantes ao .gitignore.
+
+[ESTRUTURA DO BANCO - CONSULTA REALIZADA]
+Schemas consultados para tabelas: public
+Resultado: nenhuma tabela encontrada no schema public.
+Migrations registradas: nenhuma.
+Edge Functions: nenhuma.
+
+[EXTENSOES INSTALADAS]
+- uuid-ossp (1.1) - schema extensions
+- pgcrypto (1.3) - schema extensions
+- plpgsql (1.0) - schema pg_catalog
+- supabase_vault (0.3.1) - schema vault
+- pg_stat_statements (1.11) - schema extensions
+
+[ADVISORS]
+Security: nenhum alerta retornado na consulta.
+Performance: nenhum alerta retornado na consulta.
+
+[OBSERVACOES]
+1. O projeto correto encontrado foi site-hc-tech_v3_freebuff, com referencia kfczorckyqmyflrutrik.
+2. O Project URL coincide com o endereco informado na solicitacao.
+3. A ausencia de tabelas no schema public indica que a estrutura de dados do aplicativo ainda nao foi criada neste projeto, ou nao esta nesse schema.
+4. Este relatorio registra metadados e chaves publicas. Nenhuma secret key ou service_role foi consultada ou incluida.
+5. Antes de usar dados no frontend, criar/revisar tabelas, grants e politicas RLS conforme o modelo de acesso do aplicativo.
+
+FIM DO RELATORIO
